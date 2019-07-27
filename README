@@ -1,0 +1,9 @@
+-- currently doesn't work --
+
+implementation of (hopefully) GPU hierarchical gaussian mixture models in futhark
+
+originally developed and tested using an old nightly version of futhark and then updated to mostly compile with the latest (as of 7/27/2019)
+
+doesn't currently work, unit_test_pdf is the closest to actually working but segfaults with the 'python' backend and the pyopencl backend doesn't work
+
+uses the livingRoom0 dataset from ICL-NIUM: https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html

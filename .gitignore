@@ -1,0 +1,4 @@
+futhark-nightly*
+lib
+__pycache__
+hgmm.py
